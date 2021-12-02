@@ -1,1 +1,50 @@
+<!DOCTYPE html>
 
+<html>
+    <head>
+        <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+        <title>Example</title>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"> 
+        <link rel="stylesheet" href="estilo.css">
+    </head>
+    <body>
+        <center><h2>Texto</h2></center>
+        <nav> 
+            <div class="nav-wrapper"> 
+          
+            
+            <a href="#!" class="brand-logo">Logo</a> 
+            
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a> <ul class="right hide-on-med-and-down"> 
+                
+                <li><a href="sass.html">Início</a></li>
+                
+                <li><a href="badges.html">Produtos</a></li> 
+                
+                <li><a href="collapsible.html">Sobre Nós</a></li>
+                
+                <li><a href="mobile.html">Fale Conosco</a></li> 
+                <li>
+                    <form> <div class="input-field"> <input id="search" type="search" required> <label class="label-icon" for="search"><i class="material-icons">search</i></label> <i class="material-icons">close</i> </div> </form>
+                </li>
+                
+            </ul> </div> </nav> 
+        
+        <ul class="sidenav" id="mobile-demo">
+            <li>
+                    <form> <div class="input-field"> <input id="search" type="search" required> <label class="label-icon" for="search"><i class="material-icons">search</i></label> <i class="material-icons">close</i> </div> </form>
+                </li>
+            <li><a href="sass.html">Início</a></li> <li><a href="badges.html">Produtos</a></li> <li><a href="collapsible.html">Sobre Nós</a></li> <li><a href="mobile.html">Fale Conosco</a></li>
+            
+        </ul>
+       
+        
+        
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <script>
+            elemsSidenav = document.querySelectorAll (".sidenav"); const instancesSidenav = M.Sidenav.init(elemsSidenav);
+        </script>
+    </body>
+</html>
